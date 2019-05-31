@@ -43,6 +43,7 @@ a:active{
     color: #373737;
 }
 
+/* correspond à l'en tete de page */
 #haut{
     height: 10vh;
     width: 100vw;
@@ -86,7 +87,7 @@ a:active{
     justify-content: center;
     align-items: center;
 }
-
+/* correspond à la zone de formulaire */
 input{
     border: 3px solid #373733;
     background-color: #F4F4F4;
@@ -106,7 +107,6 @@ form {
     width: 40%;
     height: 58%;
     position: absolute;
-    /* border: 1px solid #C0B283; */
 }
 
 form input{
@@ -143,6 +143,7 @@ label{
     outline: none;
 }
 
+/*  correspond à la map + coordonnées */
 #map{
     position: absolute;
     left: 120%;
